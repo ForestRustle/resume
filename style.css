@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&family=Tulpen+One&display=swap');
+
+
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f141e;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.photo {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text h1 {
+  margin-bottom: 10px;
+}
+
+.info-text p {
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #778899;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  font-style: italic;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 10px 25px;
+}
+
+.bg-almond {
+  background: BlanchedAlmond;
+}
+
+.bg-darksalmon {
+  background: DarkSalmon;
+}
+
+.bg-burlywood {
+  background: BurlyWood;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+
+.list li {
+  padding: 5px;
+  color: #778899;
+}
+
+.links-list {
+  color: #778899;
+  list-style: none;
+}
+
+.links-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #778899;
+  padding-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.table td:nth-child(odd) {
+  color: #86898f;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-row .contacts {
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc(50% - 20px); */
+}
+
+.form-row .contacts:last-child {
+  margin-right: 0;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.contacts label {
+  display: block;
+  color: #86898f;
+}
+
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+@media (max-width:750px){
+  .info{
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width:750px){
+  .form-row{
+    display: block;
+  }
+  .form-row .contacts{
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 100%;
+  }
+}
